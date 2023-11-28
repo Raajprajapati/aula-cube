@@ -1,0 +1,49 @@
+
+.task{
+    width: 600px;
+    min-width: 90%;
+    padding:5px 10px;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 4px;
+    position: relative;
+    margin: 10px;
+}
+
+.task h3{
+    font-size:24px;
+    text-transform: capitalize;
+}
+.buttons{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 1000;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    font-size: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+}
+.buttons ul{
+    list-style: none;
+}
+.buttons i{
+    font-size: 20px;
+}
+.buttons ul li{
+    margin: 2px;
+}
+button{
+    font-size: 16px;
+}
+.hidden{
+    display: none;
+}
